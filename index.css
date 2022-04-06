@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+}
+
+.container {
+  background-color: #000;
+}
+
+.container .home {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100%;
+  justify-content: space-around;
+  background: #121214;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.container .home .logo {
+  margin-top: 42px;
+}
+
+.container .home .text-user {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  color: #ffffff;
+}
+.container .home .user-menu {
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.container .home .user-menu .user:hover p{
+  color: #FFFFFF;
+}
+
+.container .home .user-menu .user div {
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid #000;
+  width: 160px;
+  height: 160px;
+}
+
+.container .home .user-menu .user div:hover  {
+  border: 1px solid #FFFFFF;
+}
+
+.container .home .user-menu .user .image:hover {
+  transform: scale(1.2);
+  transition-duration: 1.5s;
+  border-radius: 8px;
+}
+
+.container .home .user-menu .user p {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #9C9C9C;
+  margin-top: 8px;
+}
+
+.container .home .button {
+  margin: 0 auto;
+  width: 206px;
+  height: 50px;
+  border: 1.5px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #000000;
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.container .home .button:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+}
